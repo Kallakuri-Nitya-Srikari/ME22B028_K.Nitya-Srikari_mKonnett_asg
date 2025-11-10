@@ -10,8 +10,6 @@
 - `src/agent.py` — main program
 - `src/sales_api.py` — API client + caching
 - `src/llm.py` — LLM wrapper
-- `tests/test_agent_basic.py` — minimal test
-- `reflection.md` — 3-5 sentence reflection
 
 ## Notes
 - If no OPENAI_API_KEY is present, the agent still computes metrics locally and prints a simple summary.
